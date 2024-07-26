@@ -133,5 +133,6 @@ module.exports.updateStudent = function (studentData) {
         } else {
             reject("Student not found");
         }
+        resolve();
     });
 };
